@@ -210,7 +210,7 @@ public class EditorFragment extends Fragment implements Editor.EditorListener {
                 .title(getString(R.string.webview_select_picture))
                 .titleColor(Color.WHITE)
                 .titleBgColor(Color.parseColor("#3F51B5"))
-                .needScaleCrop(true)
+                .needCrop(true)
                 .needCamera(supportSelfie)
                 .maxNum(9)
                 .build();
